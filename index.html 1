@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MSU Login</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f2f5f9;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    width:900px;
+    display:flex;
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,0.15);
+}
+
+/* Left Panel */
+.left-panel{
+    width:40%;
+    background:#003366;
+    color:white;
+    padding:40px 30px;
+    text-align:center;
+}
+
+.logo{
+    width:120px;
+    margin-bottom:20px;
+}
+
+.left-panel h1{
+    font-size:24px;
+    margin-bottom:10px;
+}
+
+.left-panel p{
+    font-size:14px;
+    line-height:1.6;
+}
+
+/* User Activity */
+.activity-box{
+    margin-top:30px;
+    background:rgba(255,255,255,0.1);
+    padding:15px;
+    border-radius:8px;
+    text-align:left;
+}
+
+.activity-box h3{
+    margin-bottom:10px;
+    font-size:18px;
+}
+
+.activity-box ul{
+    list-style:none;
+}
+
+.activity-box li{
+    padding:8px 0;
+    border-bottom:1px solid rgba(255,255,255,0.2);
+}
+
+/* Right Panel */
+.right-panel{
+    width:60%;
+    padding:50px;
+}
+
+.right-panel h2{
+    margin-bottom:25px;
+    color:#003366;
+}
+
+.input-box{
+    margin-bottom:20px;
+}
+
+.input-box label{
+    display:block;
+    margin-bottom:6px;
+    font-weight:bold;
+}
+
+.input-box input{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+
+.login-btn{
+    width:100%;
+    padding:12px;
+    background:#003366;
+    color:white;
+    border:none;
+    border-radius:6px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.login-btn:hover{
+    background:#0055aa;
+}
+
+.footer{
+    margin-top:20px;
+    text-align:center;
+    font-size:13px;
+    color:#666;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Left -->
+    <div class="left-panel">
+
+        <img src="msu-logo.png" alt="MSU Logo" class="logo">
+
+        <h1>Manonmaniam Sundaranar University</h1>
+
+        <p>
+            Reaching the Unreached
+        </p>
+
+        <div class="activity-box">
+            <h3>User Activity</h3>
+
+            <ul>
+                <li>✔ Student Login Active</li>
+                <li>✔ Exam Portal Updated</li>
+                <li>✔ Results Published</li>
+                <li>✔ Fee Payment Enabled</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Right -->
+    <div class="right-panel">
+
+        <h2>Student Login</h2>
+
+        <form>
+
+            <div class="input-box">
+                <label>Username</label>
+                <input type="text" placeholder="Enter Username">
+            </div>
+
+            <div class="input-box">
+                <label>Password</label>
+                <input type="password" placeholder="Enter Password">
+            </div>
+
+            <button class="login-btn">Login</button>
+
+        </form>
+
+        <div class="footer">
+            © 2026 MSU Tirunelveli
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
